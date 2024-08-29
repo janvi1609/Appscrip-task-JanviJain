@@ -1,0 +1,65 @@
+.footer {
+  background-color: #000; 
+  color: #fff; 
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.links,
+.contact,
+.followUs {
+  flex: 1;
+}
+
+.links ul,
+.followUs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.paymentMethods {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
